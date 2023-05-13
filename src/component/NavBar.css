@@ -1,0 +1,22 @@
+
+.Nav-comp{
+ background-color: #008c80;
+ height: 60px;
+ border-bottom: 1px solid  #005c54;
+ box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
+.Nav-Logo{
+padding: 5px;
+padding-left: 15px;
+}
+.Nav-Logo h1{
+    color: white;
+    /* color: rgb(0, 0, 158); */
+    display: inline-block;
+}
+.Nav-Logo span{
+    color: rgb(255, 78, 78)  ;
+    font-size: 1.2em;
+    font-weight: bold;
+}

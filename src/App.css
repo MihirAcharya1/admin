@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +40,107 @@
     transform: rotate(360deg);
   }
 }
+.data-view{
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  justify-items: centers;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  /* background-color: rgb(188, 202, 214); */
+}
+.data-changes-view1{
+  display: inline-block;
+  margin: 10px;
+  width:  40%;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px  rgba(0, 0, 0, .3);
+  cursor: pointer;
+transition: ease .3s;
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.data-changes-view2{
+  display: inline-block;
+  margin: 10px;
+  width:  calc(40%);
+  height: 250px;
+transition: ease .3s;
+
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px  rgba(0, 0, 0, .3);
+
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  cursor: pointer;
+}
+.data-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.data-content h1{
+  display: inline-block;
+  color:blue;
+  text-shadow: 2px 5px#A9C9FF;
+}
+.list-style{
+ color: blue;
+ list-style: circle;
+ margin: 10px;
+ padding: 5px;
+ font-size: 1.2em;
+ font-weight: bold;
+}
+
+.data-changes-view3{
+  display: inline-block;
+  margin: 10px;
+  width:  calc(100% / 3);
+  height: 250px;
+transition: ease .3s;
+
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px  rgba(0, 0, 0, .3);
+
+  cursor: pointer;
+
+  background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  
+}
+.dbicon{
+  width: 90px;
+  height: 90px;
+}
+
+@media screen and (max-width:700px) {
+.data-view{
+  flex-direction: column;
+}
+.data-changes-view1{
+  width:95%
+}
+.data-changes-view2{
+  width:95%
+}
+.data-changes-view3{
+  width:95%
+}
+}
+.data-changes-view1:hover{
+ border: 3px solid rgb(135, 135, 249);
+ transform: translateY(-20px);
+}
+.data-changes-view2:hover{
+  border: 3px solid rgb(135, 135, 249);
+ transform: translateY(-20px);
+  
+ }
+ .data-changes-view3:hover{
+  border: 3px solid rgb(135, 135, 249);
+ transform: translateY(-20px);
+  
+ }
+ 
